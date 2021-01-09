@@ -1,0 +1,17 @@
+﻿
+@model Session8Pro.Data.Student
+@{
+    ViewData["Title"] = "Create";
+}
+<form action="~/home/Edit" method="post">
+    <div class="form-group">
+        <label for="name">Name :</label>
+        <input type="text" name="name" value="@Model.Name" class="form-control" id="name">
+    </div>
+    <div class="form-group">
+        <label for="average">Average :</label>
+        <input type="text" name="average" value="@Model.Average" class="form-control" id="average">
+    </div>
+    <input type="hidden" name="studentId" value="@Model.StudentId" />
+    <input type="submit" value="Edit Student" class="btn btn-default" />
+</form>

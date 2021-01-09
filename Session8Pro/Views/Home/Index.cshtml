@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Student>
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <div class="container">
+        <h2>School Demo</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Surname</th>
+                    <th>Average</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.StudentId</td>
+                        <td>@item.Name</td>
+                        <td>@item.Average</td>
+                        <td><a class="btn btn-primary" href="~/home/edit/@item.StudentId" >Edit</a>|<a class="btn btn-danger" href="~/home/delete/@item.StudentId">Delete</a></td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+        <a class="btn btn-success" href="~/home/create">Create New Stduent</a>
+    </div>
+

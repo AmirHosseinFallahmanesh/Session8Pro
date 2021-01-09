@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session8Pro", "Session8Pro\Session8Pro.csproj", "{D378B8EA-8876-4721-B48C-7EEB4593AD5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session8Pro.Data", "Session8Pro.Data\Session8Pro.Data.csproj", "{17852702-A350-44FC-947C-B2DAEDBB6342}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D378B8EA-8876-4721-B48C-7EEB4593AD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D378B8EA-8876-4721-B48C-7EEB4593AD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D378B8EA-8876-4721-B48C-7EEB4593AD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D378B8EA-8876-4721-B48C-7EEB4593AD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17852702-A350-44FC-947C-B2DAEDBB6342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17852702-A350-44FC-947C-B2DAEDBB6342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17852702-A350-44FC-947C-B2DAEDBB6342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17852702-A350-44FC-947C-B2DAEDBB6342}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B719C389-61F4-4E37-82DD-4D589803C17B}
+	EndGlobalSection
+EndGlobal
